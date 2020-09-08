@@ -12,5 +12,7 @@
     `python run.py`
 
 3. Go to http://127.0.0.1:3001/
+These are the Visuals in the web app 
+![genres](https://github.com/haritha-git/app/blob/master/Visuals/genres.png)
 
 ![categories](https://github.com/haritha-git/app/blob/master/Visuals/categories.png)
