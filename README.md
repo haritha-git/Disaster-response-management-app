@@ -12,3 +12,5 @@
     `python run.py`
 
 3. Go to http://127.0.0.1:3001/
+
+![categories](https://github.com/haritha-git/app/blob/master/Visuals/categories.png)
