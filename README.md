@@ -1,9 +1,11 @@
 # Disaster Response Pipeline Project
 This project is a web app where an emergency worker can input messages from real-life disasters and get classification results highlighted in respective categories.
 ## Table of Contents:
-*[Instructions](#Instructions)
-*[Dataset Visuals](#Visuals)
-*[Authors](#Authors)
+1.[Instructions](#Instructions)
+
+2.[Dataset Visuals](#Visuals)
+
+3.[Authors](#Authors)
 <a name="Instructions"></a>
 ## Instructions:
 a. Clone this GIT repository:
