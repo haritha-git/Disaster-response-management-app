@@ -1,15 +1,14 @@
 # Disaster Response Pipeline Project
 This project is a web app where an emergency worker can input messages from real-life disasters and get classification results highlighted in respective categories.
 ## Table of Contents:
-1.[Instructions](#Instructions)
-2.[Dataset Visuals](#Visuals)
-3.[Authors](#Authors)
+*[Instructions](#Instructions)
+*[Dataset Visuals](#Visuals)
+*[Authors](#Authors)
 <a name="Instructions"></a>
 ## Instructions:
 a. Clone this GIT repository:
-```
-git clone https://github.com/haritha-git/app.git
-```
+git clone [https://github.com/haritha-git/app.git](https://github.com/haritha-git/app.git)
+
 b. Executing Program:
 
 1. Run the following commands in the project's root directory to set up your database and model.
