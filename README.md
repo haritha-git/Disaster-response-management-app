@@ -12,6 +12,7 @@ This project is a web app where an emergency worker of the organization can inpu
 3.[Dataset Visuals](#Visuals)
 
 4.[Authors](#Authors)
+
 5.[Acknowledgements](#Acknowledgements)
 
 <a name="Libraries"></a>
@@ -33,9 +34,10 @@ This project is a web app where an emergency worker of the organization can inpu
 * joblib
 
 * flask
-<a name-file description"></a>
+
+<a name='file description'"></a>
 ## File Description
-###1. data
+1. data
 
 In a Python script, process_data.py is a data cleaning pipeline that:
   - Loads the messages and categories datasets
@@ -43,7 +45,7 @@ In a Python script, process_data.py is a data cleaning pipeline that:
   - Cleans the data
   - Stores it in a SQLite database
 
-###2. ML Pipeline
+2. ML Pipeline
 
 In a Python script, train_classifier.py, write a machine learning pipeline that:
    - Loads data from the SQLite database
@@ -52,7 +54,8 @@ In a Python script, train_classifier.py, write a machine learning pipeline that:
    - Trains and tunes a model using GridSearchCV
    - Outputs results on the test set
    - Exports the final model as a pickle file
-###3. Flask Web App
+
+3. Flask Web App
 In a python script run.py, to run web application, templates for web page
    - add visualizations from test dataset
    - Input message is categorized among 36 categories.
@@ -92,4 +95,4 @@ These are the Visuals in the web app based on the training dataset provided by F
 <a name='Acknowledgements'></a>
 ## Acknowledgements
    - Udacity nano degree program
-   - FigureEight for provding the data used by this project.
+   - Figure Eight for provding the data used by this project.
