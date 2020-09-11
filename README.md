@@ -45,9 +45,9 @@ In a Python script, process_data.py is a data cleaning pipeline that:
   - Cleans the data
   - Stores it in a SQLite database
 
-2. ML Pipeline
+2. models
 
-In a Python script, train_classifier.py, write a machine learning pipeline that:
+In a Python script, train_classifier.py, a machine learning pipeline that:
    - Loads data from the SQLite database
    - Splits the dataset into training and test sets
    - Builds a text processing and machine learning pipeline
@@ -55,10 +55,15 @@ In a Python script, train_classifier.py, write a machine learning pipeline that:
    - Outputs results on the test set
    - Exports the final model as a pickle file
 
-3. Flask Web App
+3. app
+
 In a python script run.py, to run web application, templates for web page
    - add visualizations from test dataset
    - Input message is categorized among 36 categories.
+ 
+ 4. Visuals
+    - Distribution of Categories
+    - Distribution of related,request and Direct report categories among message genres.
 <a name="Instructions"></a>
 ## Instructions:
 a. Clone this GIT repository:
