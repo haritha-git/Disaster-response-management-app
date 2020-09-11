@@ -1,11 +1,61 @@
 # Disaster Response Pipeline Project
-This project is a web app where an emergency worker can input messages from real-life disasters and get classification results highlighted in respective categories.
+We all know that following a disaster typically gets millions of messages to the disaster response organizations. As different organizations take care of specific problems like water, Hospitals, Aid related, food. The incoming messages are sorted into categories corresponding to organizations, speed up aid, and contribute to a more efficient distribution of people and other resources.
+
+This project is a web app where an emergency worker of the organization can input messages from real-life disasters and get classification results highlighted in respective categories, which could help to speed up their aid efforts.
 ## Table of Contents:
-1.[Instructions](#Instructions)
+1.[Libraries](#Libraries)
 
-2.[Dataset Visuals](#Visuals)
+2.[File Description](#file description)
 
-3.[Authors](#Authors)
+2.[Instructions](#Instructions)
+
+3.[Dataset Visuals](#Visuals)
+
+4.[Authors](#Authors)
+5.[Acknowledgements](#Acknowledgements)
+
+<a name="Libraries"></a>
+## Libraries:
+* pandas
+
+* numpy
+
+* sqlalchemy
+
+* matplotlib
+
+* plotly
+
+* NLTK
+
+* sklearn
+
+* joblib
+
+* flask
+<a name-file description"></a>
+## File Description
+###1. data
+
+In a Python script, process_data.py is a data cleaning pipeline that:
+  - Loads the messages and categories datasets
+  - Merges the two datasets
+  - Cleans the data
+  - Stores it in a SQLite database
+
+###2. ML Pipeline
+
+In a Python script, train_classifier.py, write a machine learning pipeline that:
+   - Loads data from the SQLite database
+   - Splits the dataset into training and test sets
+   - Builds a text processing and machine learning pipeline
+   - Trains and tunes a model using GridSearchCV
+   - Outputs results on the test set
+   - Exports the final model as a pickle file
+###3. Flask Web App
+In a python script run.py, to run web application, templates for web page
+   - add visualizations from test dataset
+   - Input message is categorized among 36 categories.
 <a name="Instructions"></a>
 ## Instructions:
 a. Clone this GIT repository:
@@ -38,4 +88,8 @@ These are the Visuals in the web app based on the training dataset provided by F
 
 <a name = 'Authors'></a>
 ## Authors:
-*[G. Haritha](https://github.com/haritha-git)
+[G. Haritha](https://github.com/haritha-git)
+<a name='Acknowledgements'></a>
+## Acknowledgements
+   - Udacity nano degree program
+   - FigureEight for provding the data used by this project.
