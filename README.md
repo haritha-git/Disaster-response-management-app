@@ -5,7 +5,7 @@ This project is a web app where an emergency worker of the organization can inpu
 ## Table of Contents:
 1.[Libraries](#Libraries)
 
-2.[File Description](#file description)
+2.[File Description](#file)
 
 2.[Instructions](#Instructions)
 
@@ -35,7 +35,7 @@ This project is a web app where an emergency worker of the organization can inpu
 
 * flask
 
-<a name='file description'></a>
+<a name="file"></a>
 ## File Description
 1. data
 
