@@ -1,9 +1,11 @@
 import json
 import plotly
 import pandas as pd
-
+import re
+import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
 
 from flask import Flask
 from flask import render_template, request, jsonify
@@ -15,9 +17,19 @@ from sqlalchemy import create_engine
 app = Flask(__name__)
 
 def tokenize(text):
-    tokens = word_tokenize(text)
+    """ Tokenize each message and remove useless words or symbols.
+    INPUT: text -- The message need to be tokenized
+    OUTPUT: token -- Tokens of a message
+    """
     lemmatizer = WordNetLemmatizer()
-
+    stop_words = stopwords.words("english")
+    # normalize case and remove punctuation
+    text = re.sub(r"[^a-zA-Z0-9]", " ", text.lower())
+    # tokenize text
+    tokens = word_tokenize(text)
+    # remove stopwords
+    tokens = [token for token in  tokens if token not in stop_words]
+    # lemmatize
     clean_tokens = []
     for tok in tokens:
         clean_tok = lemmatizer.lemmatize(tok).lower().strip()
