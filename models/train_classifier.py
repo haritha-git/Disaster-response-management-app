@@ -80,9 +80,9 @@ def build_model():
     parameters = {'clf__estimator__criterion': ['entropy'],
               'clf__estimator__max_depth': [10, 50, None],
              # 'clf__estimator__min_samples_leaf':[2, 5, 10],
-              'clf__estimator__n_estimators': [100, 200]}
+              'clf__estimator__n_estimators': [10,50,100]}
 
-    cv=GridSearchCV(pipeline, param_grid=parameters, cv=2, n_jobs=-1, verbose=3)
+    cv=GridSearchCV(pipeline, param_grid=parameters, cv=2, n_jobs=-1, verbose=1)
     return cv
 def precision_recall_fscore(y_test,y_pred):
     """
