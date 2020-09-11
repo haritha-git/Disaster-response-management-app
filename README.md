@@ -35,7 +35,7 @@ This project is a web app where an emergency worker of the organization can inpu
 
 * flask
 
-<a name='file description'"></a>
+<a name='file description'></a>
 ## File Description
 1. data
 
@@ -91,7 +91,7 @@ These are the Visuals in the web app based on the training dataset provided by F
 
 <a name = 'Authors'></a>
 ## Authors:
-[G. Haritha](https://github.com/haritha-git)
+   [G. Haritha](https://github.com/haritha-git)
 <a name='Acknowledgements'></a>
 ## Acknowledgements
    - Udacity nano degree program
