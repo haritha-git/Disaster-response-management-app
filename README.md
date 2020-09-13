@@ -67,7 +67,7 @@ In a python script run.py, to run web application, templates for web page
 <a name="Instructions"></a>
 ## Instructions:
 a. Clone this GIT repository:
-git clone [https://github.com/haritha-git/app.git](https://github.com/haritha-git/app.git)
+git clone [https://github.com/haritha-git/Disaster-response-management-app.git](https://github.com/haritha-git/Disaster-response-management-app.git)
 
 b. Executing Program:
 
